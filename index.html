@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Sizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heaing">
+        <h1>Player Hand</h1>
+        <h1>Computer Hand</h1>
+    </div>
+    <div class="main">
+        <div class="player">
+            
+            <img src="images/stoneComputer.png" id="playerimg">
+        </div>
+        <div class="computer">
+            
+            <img src="images/stonePlayer.png" id="computerimg">
+        </div>
+    </div>
+    <div class="para">
+        <p>Your score: <span id="playc">0</span></p>
+        <p>Computer score: <span id="comc">0</span></p>
+    </div>
+    <div class="choose">
+        <button id="stone">Stone</button>
+        <button id="paper">Paper</button>
+        <button id="sizer"> Sizer</button>
+    </div>
+    <div class="restart">
+        <i class="fa-solid fa-spinner" id="restart"></i>
+        <p>Restart</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

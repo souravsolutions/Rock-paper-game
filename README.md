@@ -3,10 +3,6 @@
 **Play the classic Rock-Paper-Scissors game in your browser!**  
 A simple and interactive web-based game built with HTML, CSS, and JavaScript.
 
-![Game Preview](images/game-preview.png)
-
----
-
 ## 🎮 Features
 
 - 🕹️ Interactive gameplay vs computer
